@@ -9,12 +9,12 @@
 </head>
 
 <body>
-  <h2 class="content-head is-center">Contact Us!</h2>
+  <h2 class="content-head is-center">Submit A Ticket</h2>
   <aside>
        <p>
-           We would <em>love</em> to hear from you! </p>
-           <p>Please use the <b><em>Contact Form</em></b>
-           to send us a message, bug reports, feature request, or more!
+           Submit a ticket to <em>get help</em>! </p>
+           <p>Please use the <b><em>following form</em></b>
+           to submit a ticket, send us a message, report a bug, request a feature, or more!
        </p>
    </aside>
 
@@ -34,6 +34,12 @@
         <input id="name" name="name" placeholder="Your Name" />
       </fieldset>
 
+        <fieldset class="pure-group">
+         <label for="discordid">Your Discord ID </label>
+         <textarea id="message" name="message" rows="2"
+         required placeholder="enable developer mode, right click on your profile, then select copy id, and copy it here!"></textarea>
+        </fieldset>
+        
       <fieldset class="pure-group">
         <label for="message">Message: </label>
         <textarea id="message" name="message" rows="10"
@@ -50,6 +56,8 @@
         <label for="priority">priority level: </label>
         <input id="priority" name="priority" required placeholder="high, median, low" />
       </fieldset>
+        
+
 
       <fieldset class="pure-group honeypot-field">
         <label for="honeypot">To help avoid spam, we use Honeypot to prevent spams; This field must be empty to submit the form! Otherwise, We assume the user is a spam bot.</label>
